@@ -1,0 +1,100 @@
+.hero-banner {
+    margin: 2vh;
+    background-color: #E9F5FF;
+    height: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-banner p {
+    font-size: larger;
+    margin-top: -5px;
+}
+.hero-banner button {
+    background-color: #007BFF;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+}
+.hero-banner button a {
+    color: white;
+    text-decoration: none;
+}
+
+.quick-info-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quick-info-cards .info-card {
+    background-color: white;
+    font-size: larger;
+    height: 3em;
+    width: 10em;
+    margin: 10px 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-services .service-block {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 5px 10px;
+    padding: 20px;
+    height: 12em;
+    width: 17em;
+    border-radius: 5px;
+}
+.our-services .service-block h3 {
+    margin: 5px;
+}
+
+.testimonials {
+    background-color: #E9F5FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials .review {
+    background-color: white;
+    height: 6em;
+    width : 35em;
+    margin: 10px;
+    padding: 5px 25px;
+}
+.testimonials .review p {
+    font-style: italic;
+}
+.testimonials .review h4 {
+    color: rgb(71, 71, 247);
+}
+
+.emergency-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE9E9;
+    margin: 15px 5px;
+    border-left: 5px solid #DC3343;
+    border-radius: 10px;
+}
+.emergency-info .emergency-item {
+    margin: -10px;
+    font-size: medium;
+}
+.emergency-info .emergency-item h3 {
+    color: #DA2839;
+}
