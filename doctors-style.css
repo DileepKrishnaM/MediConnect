@@ -1,0 +1,71 @@
+.intro-strip {
+    background-color: #E9F5FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 15px;
+    padding: auto;
+}
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding : 2em 1em;
+    margin: 1em 1em;
+}
+.service-cards .service-card {
+    background-color: #ffffff;
+    height: 10em;
+    width: 9em;
+    margin: 10px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+.service-cards .service-card h4 {
+    color: #007BFF;
+    font-size: large;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.service-cards .service-card p {
+    font-size: small;
+    text-align: center;
+    margin: 2px;
+}
+.service-cards .service-card button {
+    height: 60px;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #28a745;
+    margin-bottom: 20px;
+}
+.service-cards .service-card button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.team-values {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-values h3 {
+    color: #007BFF;
+    margin: 10px 0;
+}
+.team-values .value-card {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 0px 10px 10px 10px;
+    height: 40px;
+    width: 40em;
+    border-left: 4px solid #007BFF;
+    border-radius: 10px;
+}
