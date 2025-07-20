@@ -1,0 +1,66 @@
+.hero-banner {
+    margin: 2vh;
+    background-color: #E9F5FF;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-banner p {
+    font-size: larger;
+    margin-top: -5px;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+    padding: 1em;
+    margin-bottom: 5vh;
+}
+.article-container {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+.article-container .article-card {
+    background-color: rgb(223, 245, 243);
+    border-radius: 10px;
+    border-left: green 7px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 4em;
+    width: 55vw;
+    padding: 10px;
+    margin: 10px;
+}
+.article-container .article-card h4 {
+    font-size: larger;
+    margin-bottom: -10px;
+    color: green;
+}
+.sidebar {
+    background-color: #ffffff;
+    padding: 1em;
+    width: 20vw;
+    border-radius: 10px;
+}
+.quote {
+    background-color: #fff7c7;
+    padding: 1em;
+    border-radius: 10px;
+    border-left: yellowgreen 5px solid;
+    margin-bottom: 20px;
+    height: 50px;
+}
+.quote p {
+    font-size: medium;
+    color: rgb(106, 155, 9);
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}

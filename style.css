@@ -8,13 +8,13 @@ header {
     justify-content: center;
     align-items: center;
     background-color:#007BFF;
-    color: beige;
+    color: white;
 }
 header nav{
     display: flex;
 }
 header nav a{
-    color: beige;
+    color: white;
     text-decoration: none;
     margin-top : -10px;
     padding: 10px 30px;
