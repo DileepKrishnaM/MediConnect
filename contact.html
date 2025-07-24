@@ -1,26 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MediConnect-Contact</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact-style.css" />
+  </head>
+  <body>
     <header>
-        <h2>Contact Us</h2>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="doctors.html">Doctors</a>
-            <a href="health-tips.html">Health Tips</a>
-            <a href="faq.html">FAQ</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+      <h2>Contact Us</h2>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="health-tips.html">Health Tips</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </header>
+    <main>
+      <div class="contact-form">
+        <div class="left-half">
+          <h3>Contact Our Team</h3>
+          <form action="contact-style.css">
+            <input type="text" placeholder="Your Name" required sty /><br />
+            <input type="email" placeholder="Your Email" required /><br />
+            <textarea placeholder="Your Message" required rows="8"></textarea
+            ><br />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="right-half">
+          <h3>Our Office</h3>
+          <p>
+            Hitech City and Financial District <br />
+            Hyderabad, Telangana, 500001
+          </p>
+          <p>Email : support@mediconnect.com</p>
+          <p>Phone: +91 99999 12345</p>
+          <h3>Find Us Here</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.4579306298247!2d78.59351207501318!3d17.196560408274777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1753372207601!5m2!1sen!2sin"
+            width="380"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
 
+          <h4>Need Help?</h4>
+            <li><a href="faq.html">Visit our FAQ</a></li>
+            <li><a href="services.html">Browse Our Services</a></li>
+            <li><a href="doctors.html">Meet Our Experts</a></li>
+        </div>
+      </div>
+    </main>
     <footer>
-        <p>&copy; 2025 MediConnect. All rights reserved.</p>
+      <p>&copy; 2025 MediConnect. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>

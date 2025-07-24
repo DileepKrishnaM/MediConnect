@@ -1,0 +1,63 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .contact-form {
+    display: grid;
+    grid-template-areas: "p1 p1 p1 p2 p2";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 80vw;
+    margin: 40px;
+    background-color: #f6f2f2;
+    border-radius: 10px;
+    font-size: small;
+    padding: 10px;
+}
+main .contact-form .left-half {
+    grid-area: p1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20PX;
+}
+main .contact-form h3{
+    font-size: 1.5em;
+    color: #007BFF;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+form input, form textarea {
+    width: 40vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40vw;
+    margin: 10px;
+}
+form button:hover {
+    background-color: #15d312;
+    color: blue;
+}
+main .contact-form .right-half {
+    grid-area: p2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+main .contact-form .right-half p {
+    margin: 10px 0;
+}
